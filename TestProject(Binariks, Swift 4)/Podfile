@@ -11,6 +11,8 @@ pod 'Firebase/Core'
 pod 'Firebase/Auth’
 pod 'Firebase/Database’
 pod 'Firebase/Database’
+pod ‘FBSDKCoreKit’
+pod ‘FBSDKLoginKit’
 pod ‘GoogleMaps’
 pod 'GooglePlaces'
 

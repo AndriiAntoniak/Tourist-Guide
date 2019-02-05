@@ -24,7 +24,7 @@ class AuthService {
         Auth.auth().signIn(withEmail: email, password: password, completion: { (user, error) in
             if error == nil {
                 print("NotError: \(String(describing: error))")
-                UserDefaults.standard.set(user?.uid, forKey: "uid")
+                UserDefaults.standard.set(user?.user.uid, forKey: "uid")
                 completion()
             } else {
                 print("IsError: \(String(describing: error))")
@@ -44,7 +44,7 @@ class AuthService {
     func createUser(name: String, email: String, password: String, completion: @escaping () -> Void) {
         Auth.auth().createUser(withEmail: email, password: password, completion: { (user, error) in
             if error == nil {
-                self.saveUserInfo(name: name, email: email, password: password, user: user!) {
+                self.saveUserInfo(name: name, email: email, password: password, user: user!.user) {
                     completion()
                 }
             } else {

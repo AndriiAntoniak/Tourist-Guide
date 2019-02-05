@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B064C1021416F2E00E02D94 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B064C0F21416F2E00E02D94 /* GoogleService-Info.plist */; };
+		2B064C152141700E00E02D94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B064C142141700E00E02D94 /* Main.storyboard */; };
+		2B064C172141705C00E02D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B064C162141705C00E02D94 /* LaunchScreen.storyboard */; };
 		344428DA206B9C64006351E2 /* Mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344428D9206B9C64006351E2 /* Mark.swift */; };
 		345CFEBE206BC95400889BC5 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345CFEBB206BC95400889BC5 /* FBSDKLoginKit.framework */; };
 		345CFEBF206BC95400889BC5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345CFEBC206BC95400889BC5 /* Bolts.framework */; };
 		345CFEC0206BC95400889BC5 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345CFEBD206BC95400889BC5 /* FBSDKCoreKit.framework */; };
 		345CFEC2206BCF5100889BC5 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345CFEC1206BCF5100889BC5 /* FBSDKShareKit.framework */; };
 		34F3E2AE206A2F840088FF88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F3E2AD206A2F840088FF88 /* AppDelegate.swift */; };
-		34F3E2B3206A2F840088FF88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F3E2B1206A2F840088FF88 /* Main.storyboard */; };
 		34F3E2B5206A2F840088FF88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F3E2B4206A2F840088FF88 /* Assets.xcassets */; };
-		34F3E2B8206A2F840088FF88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F3E2B6206A2F840088FF88 /* LaunchScreen.storyboard */; };
-		34F3E2C1206A362D0088FF88 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34F3E2C0206A362D0088FF88 /* GoogleService-Info.plist */; };
 		34F3E2C3206A378C0088FF88 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F3E2C2206A378C0088FF88 /* AuthService.swift */; };
 		34F3E2C5206A40600088FF88 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F3E2C4206A40600088FF88 /* LoginViewController.swift */; };
 		34F3E2C7206A4ADC0088FF88 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F3E2C6206A4ADC0088FF88 /* Utility.swift */; };
@@ -26,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B064C0F21416F2E00E02D94 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2B064C142141700E00E02D94 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2B064C162141705C00E02D94 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		344428D9206B9C64006351E2 /* Mark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mark.swift; sourceTree = "<group>"; };
 		345CFEBB206BC95400889BC5 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		345CFEBC206BC95400889BC5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
@@ -33,11 +36,8 @@
 		345CFEC1206BCF5100889BC5 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		34F3E2AA206A2F840088FF88 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F3E2AD206A2F840088FF88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34F3E2B2206A2F840088FF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34F3E2B4206A2F840088FF88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		34F3E2B7206A2F840088FF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34F3E2B9206A2F840088FF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34F3E2C0206A362D0088FF88 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		34F3E2C2206A378C0088FF88 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		34F3E2C4206A40600088FF88 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		34F3E2C6206A4ADC0088FF88 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
@@ -108,15 +108,15 @@
 			children = (
 				34F3E2AD206A2F840088FF88 /* AppDelegate.swift */,
 				34F3E2C6206A4ADC0088FF88 /* Utility.swift */,
+				2B064C142141700E00E02D94 /* Main.storyboard */,
 				344428D9206B9C64006351E2 /* Mark.swift */,
-				34F3E2B1206A2F840088FF88 /* Main.storyboard */,
+				2B064C162141705C00E02D94 /* LaunchScreen.storyboard */,
 				34F3E2C4206A40600088FF88 /* LoginViewController.swift */,
+				2B064C0F21416F2E00E02D94 /* GoogleService-Info.plist */,
 				34F3E2CA206A58AD0088FF88 /* MapViewController.swift */,
 				34F3E2C2206A378C0088FF88 /* AuthService.swift */,
 				34F3E2B4206A2F840088FF88 /* Assets.xcassets */,
-				34F3E2C0206A362D0088FF88 /* GoogleService-Info.plist */,
 				34F3E2C8206A50960088FF88 /* SignUpViewController.swift */,
-				34F3E2B6206A2F840088FF88 /* LaunchScreen.storyboard */,
 				34F3E2B9206A2F840088FF88 /* Info.plist */,
 			);
 			path = TestProject;
@@ -133,8 +133,8 @@
 				34F3E2A6206A2F840088FF88 /* Sources */,
 				34F3E2A7206A2F840088FF88 /* Frameworks */,
 				34F3E2A8206A2F840088FF88 /* Resources */,
-				C497C95B21E5DBAFE91B3D16 /* [CP] Embed Pods Frameworks */,
-				DF333F00B48DA47C66ACF5A0 /* [CP] Copy Pods Resources */,
+				3F6B25CE9691087DFB88D9CD /* [CP] Embed Pods Frameworks */,
+				B544E2262057619E426A077E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,45 +184,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34F3E2B8206A2F840088FF88 /* LaunchScreen.storyboard in Resources */,
-				34F3E2C1206A362D0088FF88 /* GoogleService-Info.plist in Resources */,
+				2B064C152141700E00E02D94 /* Main.storyboard in Resources */,
+				2B064C172141705C00E02D94 /* LaunchScreen.storyboard in Resources */,
+				2B064C1021416F2E00E02D94 /* GoogleService-Info.plist in Resources */,
 				34F3E2B5206A2F840088FF88 /* Assets.xcassets in Resources */,
-				34F3E2B3206A2F840088FF88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B5DD64BA1396B7FECE4BF2C8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TestProject-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C497C95B21E5DBAFE91B3D16 /* [CP] Embed Pods Frameworks */ = {
+		3F6B25CE9691087DFB88D9CD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TestProject/Pods-TestProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,7 +224,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestProject/Pods-TestProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DF333F00B48DA47C66ACF5A0 /* [CP] Copy Pods Resources */ = {
+		B544E2262057619E426A077E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -248,6 +242,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestProject/Pods-TestProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5DD64BA1396B7FECE4BF2C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -268,25 +280,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		34F3E2B1206A2F840088FF88 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34F3E2B2206A2F840088FF88 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		34F3E2B6206A2F840088FF88 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34F3E2B7206A2F840088FF88 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		34F3E2BA206A2F840088FF88 /* Debug */ = {
